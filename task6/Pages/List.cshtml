@@ -1,0 +1,21 @@
+﻿@page
+@model task6.Pages.ListModel
+@{
+}
+<link href="/css/style.css" rel="stylesheet"/>
+<h1>List of Countries</h1>
+
+<div>
+	<ul class="country-list">
+		@foreach(var country in Model.Countries)
+		{
+			<li>
+				<h2>@country.Name</h2>
+				<p>Capital: @country.Capital</p>
+				<p>Capital: @country.Population</p>
+				<p>Capital: @country.Square km<sup>2</sup></p>
+			</li>
+		}
+    
+	</ul>
+</div>

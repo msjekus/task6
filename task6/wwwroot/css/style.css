@@ -1,2 +1,34 @@
 ﻿body {
 }
+.cont {
+    text-align: center;
+    background-color:aliceblue;
+
+}
+/*b{
+    
+}*/
+.country-list {
+    list-style: none;
+    padding: 0;
+}
+
+.country-list li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #e9f7ef;
+}
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+}
+
+.restaurant-list li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

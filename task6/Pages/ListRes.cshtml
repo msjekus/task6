@@ -1,0 +1,21 @@
+﻿@page
+@model task6.Pages.ListResModel
+@{
+}
+<link href="/css/style.css" rel="stylesheet" />
+<h1>Список ресторанів України:</h1>
+
+<div>
+	<ul class="restaurant-list">
+		@foreach (var restaurant in Model.Restaurants)
+		{
+			<li>
+				<h2>@restaurant.Name</h2>
+				<p>Адреса: @restaurant.Address</p>
+				<p>Кухня: @restaurant.Cuisine</p>
+				<p>Короткий опис: @restaurant.Description</p>
+			</li>
+		}
+
+	</ul>
+</div>
